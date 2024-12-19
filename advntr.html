@@ -3,37 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+  <title>Dandeli Tourism</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <h1>Welcome to My Website</h1>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+  <header class="hero">
+    <div class="overlay">
+      <h1>Welcome to Dandeli</h1>
+      <p>Discover the Adventure, Wildlife, and Scenic Beauty</p>
+    </div>
   </header>
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>This is a sample website hosted on GitHub Pages!</p>
-    </section>
-    <section id="services">
-      <h2>Services</h2>
-      <p>I provide awesome services like web development and design.</p>
-    </section>
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: example@example.com</p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 My Website</p>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About Dandeli</a></li>
+      <li><a href="#activities">Activities</a></li>
+      <li><a href="#attractions">Attractions</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Dandeli</h2>
+    <p>Dandeli is a paradise for nature and adventure lovers, offering lush green forests, thrilling river activities, and a serene escape from city life.</p>
+    <img src="images/trees.jpg" alt="Dense Forest in Dandeli" class="content-image">
+  </section>
+
+  <section id="activities">
+    <h2>Adventure Activities</h2>
+    <p>Experience the thrill of river rafting, trekking, and more amidst Dandeli's pristine environment.</p>
+    <div class="activities">
+      <div class="card">
+        <img src="images/rafting.jpg" alt="River Rafting">
+        <h3>River Rafting</h3>
+      </div>
+      <div class="card">
+        <img src="images/kayaking.jpg" alt="Kayaking">
+        <h3>Kayaking</h3>
+      </div>
+      <div class="card">
+        <img src="images/trekking.jpg" alt="Trekking">
+        <h3>Trekking</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="attractions">
+    <h2>Scenic Attractions</h2>
+    <p>Explore breathtaking spots like Syntheri Rocks, Kavala Caves, and Shiroli Peak.</p>
+    <img src="images/waterfall.jpg" alt="Waterfall in Dandeli" class="content-image">
+  </section>
+
+  <footer id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: explore@dandeli.com | Phone: +91-1234567890</p>
+    <p>&copy; 2024 Dandeli Tourism</p>
   </footer>
-  <script src="script.js"></script> <!-- Link to external JS -->
 </body>
 </html>
